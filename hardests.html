@@ -1,0 +1,530 @@
+<!DOCTYPE html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="langScript.js" defer></script>
+    <title>GD Euskadi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles-nav.css">
+    <link rel="stylesheet" href="styles-lists.css">
+    <link rel="icon" href="img/gdeus-logo.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,1,0&icon_names=arrow_drop_down" />
+    <!--
+-->
+</head>
+<body>
+    <span id="gora"></span>
+    <!-- BARRA DE ARRIBA -->
+    <div class="nav-arriba" id="navArriba">
+        <a href="index.html" class="active">
+            <img src="img/gdeus-logo.png" alt="Logo" class="logo">
+            <span data-lang-key="nav-main-page">Página Principal</span></a>
+        <div class="dropdown">
+        <button class="dropbtn" data-lang-key="nav-prov-page">Provincias</button>
+            <div class="dropdown-content">
+                <a href="prov-a.html" data-lang-key="prov-a">Álava</a>
+                <a href="prov-b.html" data-lang-key="prov-b">Vizcaya</a>
+                <a href="prov-g.html" data-lang-key="prov-g">Gipuzkoa</a>
+                <a href="prov-n.html" data-lang-key="prov-n">Navarra</a>
+                <a href="prov-l.html" data-lang-key="prov-l">Lapurdi</a>
+                <a href="prov-nb.html" data-lang-key="prov-nb">Navarra Baja</a>
+                <a href="prov-z.html" data-lang-key="prov-z">Zubero</a>
+                <!--
+                -->
+            </div>
+        </div>
+        <a href="hardests.html" data-lang-key="nav-hardests-page">Lista de Hardests</a>
+        <a href="hardests-hist.html" data-lang-key="nav-hardests-hist-page">Historia de Hardests</a>
+        <a href="hardests-oty.html" data-lang-key="nav-hardests-oty-page">Hardests del Año</a>
+        <a href="creations.html" data-lang-key="nav-creations-page" class="unfinished">Creaciones</a>
+        <a href="contact.html" data-lang-key="nav-contact-page">Sobre nosotros</a>
+        <a href="changelog.html" data-lang-key="changelog-title">Lista de Cambios</a>
+        <div class="dropdown">
+        <button class="dropbtn" data-lang-key="lang-select">Idioma</button>
+            <div class="dropdown-content">
+                <a href="#" id="btn-es" class="lang-btn lang-es">Español</a>
+                <a href="#" id="btn-eu" class="lang-btn lang-eu">Euskera</a>
+            </div>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    <!-- INICIO DEL CONTENIDO PA -->
+
+    <div class="buffer"></div>
+    <!-- PORTADA -->
+    <div class="list-header rou">
+        <h1 data-lang-key="nav-hardests-page">Hardests</h1>
+        <p data-lang-key="hardests-intro">Aquí se mostrarán los hardests de la provincia de Gipuzkoa, ordenados según dificultad, uno por jugador.</p>
+        <p class="mini"><span data-lang-key="last-update">Última actualización</span>: 2026/11/07</p>
+    </div>
+
+    <!-- LISTA -->
+    <div class="list-item eod rou">
+        <div class="no-bg-filter">
+            <div class="left">
+                <h2><!-- KOKAPENA -->1</h2>
+                <a href="https://www.youtube.com/@Eletriple" target="_blank"><img src="img/icons/eletriple.png"></a>
+                <!-- LISTA PRINCIPAL
+                -->
+                <a href="prov-b.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Bandera_de_Vizcaya.svg/330px-Bandera_de_Vizcaya.svg.png" class="list-prov-flag"></a>
+            </div>
+            <div class="centre">
+                <h2><a href="https://www.youtube.com/watch?v=g8xlepIE0sA" target="_blank">eletriple // Edge of Destiny (CDMusic)</a></h2>
+                <p><span data-lang-key="date">Fecha</span>: 2025/07/02</p>
+                <p><span data-lang-key="atts">Intentos</span>: 33.055</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="list-item firework rou">
+        <div class="no-bg-filter">
+            <div class="left">
+                <h2><!-- KOKAPENA -->2</h2>
+                <a href="https://www.youtube.com/@TheSantyyy" target="_blank"><img src="img/icons/thesantyyy.png"></a>
+                <!-- LISTA PRINCIPAL
+                -->
+                <a href="prov-n.html">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Bandera_de_Navarra.svg/330px-Bandera_de_Navarra.svg.png" class="list-prov-flag">
+                </a>
+            </div>
+            <div class="centre">
+                <h2><a href="https://www.youtube.com/watch?v=fEWbBPAK5Uk" target="_blank">TheSantyyy // Firework (TrickGMD)</a></h2>
+                <p><span data-lang-key="date">Fecha</span>: 2026/07/09</p>
+                <p><span data-lang-key="atts">Intentos</span>: 64.089</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="list-item limbo rou">
+        <div class="no-bg-filter">
+            <div class="left">
+                <h2><!-- KOKAPENA -->3</h2>
+                <a href="https://gdbrowser.com/u/insurgentes54" target="_blank"><img src="img/icons/insurgentes54.png"></a>
+                <!-- LISTA PRINCIPAL
+                -->
+                <a href="prov-b.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Bandera_de_Vizcaya.svg/330px-Bandera_de_Vizcaya.svg.png" class="list-prov-flag"></a>
+            </div>
+            <div class="centre">
+                <h2><a href="https://www.youtube.com/watch?v=dOQLDDHrAZg" target="_blank">Insurgentes54 // LIMBO (MindCap)</a></h2>
+                <p><span data-lang-key="date">Fecha</span>: 2026/01/02</p>
+                <p><span data-lang-key="atts">Intentos</span>: 40.011</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="list-item theyangire rou">
+        <div class="no-bg-filter">
+            <div class="left">
+                <h2><!-- KOKAPENA -->4</h2>
+                <a href="https://www.youtube.com/@MrErik30" target="_blank"><img src="img/icons/mrerik30.png"></a>
+                <!-- LISTA PRINCIPAL
+                -->
+                <a href="prov-g.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Flag_of_Guip%C3%BAzcoa.svg/330px-Flag_of_Guip%C3%BAzcoa.svg.png" class="list-prov-flag"></a>
+            </div>
+            <div class="centre">
+                <h2><a href="https://www.youtube.com/watch?v=sgfVaGzGLmY" target="_blank">MrErik30 // The Yangire (Dorami)</a></h2>
+                <p><span data-lang-key="date">Fecha</span>: 2026/04/17</p>
+                <p><span data-lang-key="atts">Intentos</span>: 27.193</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="list-item aerialgleam rou">
+        <div class="no-bg-filter">
+            <div class="left">
+                <h2><!-- KOKAPENA -->5</h2>
+                <a href="https://www.youtube.com/@BlueHeaven567" target="_blank"><img src="img/icons/blueheaven567.png"></a>
+                <!-- LISTA PRINCIPAL
+                -->
+                <a href="prov-a.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Flag_of_%C3%81lava.svg/330px-Flag_of_%C3%81lava.svg.png" class="list-prov-flag"></a>
+            </div>
+            <div class="centre">
+                <h2><a href="https://www.youtube.com/watch?v=Yg_A0pijKSs" target="_blank">Blue Heaven 567 // Aerial Gleam (EndLevel)</a></h2>
+                <p><span data-lang-key="date">Fecha</span>: 2026/10/20</p>
+                <p><span data-lang-key="atts">Intentos</span>: 747.155</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="list-item renevant rou">
+        <div class="no-bg-filter">
+            <div class="left">
+                <h2><!-- KOKAPENA -->6</h2>
+                <a href="https://www.youtube.com/@ProkaiGD" target="_blank"><img src="img/icons/prokaigd.png"></a>
+                <!-- LISTA PRINCIPAL
+                -->
+                <a href="prov-b.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Bandera_de_Vizcaya.svg/330px-Bandera_de_Vizcaya.svg.png" class="list-prov-flag"></a>
+            </div>
+            <div class="centre">
+                <h2><a href="https://www.youtube.com/watch?v=uqc5Y-Rzb1g" target="_blank">Prokaigd // Renevant (Nikrodox)</a></h2>
+                <p><span data-lang-key="date">Fecha</span>: 2024/05/31</p>
+                <p><span data-lang-key="atts">Intentos</span>: 47.796</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="list-item renevant rou">
+        <div class="no-bg-filter">
+            <div class="left">
+                <h2><!-- KOKAPENA -->6</h2>
+                <a href="https://www.youtube.com/@erbeq64" target="_blank"><img src="img/icons/erbeq64.png"></a>
+                <!-- LISTA PRINCIPAL
+                -->
+                <a href="prov-g.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Flag_of_Guip%C3%BAzcoa.svg/330px-Flag_of_Guip%C3%BAzcoa.svg.png" class="list-prov-flag"></a>
+            </div>
+            <div class="centre">
+                <h2><a href="https://www.youtube.com/watch?v=Rng77wfBdxQ" target="_blank">ErbeQ64 // Renevant (Nikrodox)</a></h2>
+                <p><span data-lang-key="date">Fecha</span>: 2025/12/20</p>
+                <p><span data-lang-key="atts">Intentos</span>: 44.473</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="list-item ta1lsd0ll rou">
+        <div class="no-bg-filter">
+            <div class="left">
+                <h2><!-- KOKAPENA -->4</h2>
+                <a href="https://www.youtube.com/@Tutu_You" target="_blank"><img src="img/icons/tutu.png"></a>
+                <!-- LISTA PRINCIPAL
+                -->
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Bandera_de_Vizcaya.svg/330px-Bandera_de_Vizcaya.svg.png" class="list-prov-flag">
+            </div>
+            <div class="centre">
+                <h2><a href="https://www.youtube.com/watch?v=bFLwy7nmNwU" target="_blank">Tutu You // Ta1LSD0ll (ta1lsd0ll)</a></h2>
+                <p><span data-lang-key="date">Fecha</span>: 2026/10/24</p>
+                <p><span data-lang-key="atts">Intentos</span>: 43.818</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="list-item ragnarok rou">
+        <div class="no-bg-filter">
+            <div class="left">
+                <h2><!-- KOKAPENA -->8</h2>
+                <a href="https://gdbrowser.com/u/ikegzito" target="_blank"><img src="img/icons/ikegzito.png"></a>
+                <!-- LISTA PRINCIPAL
+                -->
+                <a href="prov-a.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Flag_of_%C3%81lava.svg/330px-Flag_of_%C3%81lava.svg.png" class="list-prov-flag"></a>
+            </div>
+            <div class="centre">
+                <h2><span>IKEGZITO // Ragnarok (Knobbelboy)</span></h2>
+                <p><span data-lang-key="date">Fecha</span>: 2023/06/??</p>
+                <p><span data-lang-key="atts">Intentos</span>: ~14.000</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="list-item shardscapes rou">
+        <div class="no-bg-filter">
+            <div class="left">
+                <h2><!-- KOKAPENA -->9</h2>
+                <a href="https://www.youtube.com/@TheYTGames217/videos" target="_blank"><img src="img/icons/millan.png"></a>
+                <!-- LISTA PRINCIPAL
+                -->
+                <a href="prov-n.html">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Bandera_de_Navarra.svg/330px-Bandera_de_Navarra.svg.png" class="list-prov-flag">
+                </a>
+            </div>
+            <div class="centre">
+                <h2><a href="https://www.youtube.com/watch?v=mkqs8F37bIU" target="_blank">Millán // Shardscapes (ItzKiba)</a></h2>
+                <p><span data-lang-key="date">Fecha</span>: 2023/10/14</p>
+                <p><span data-lang-key="atts">Intentos</span>: 16.725</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="list-item stormingsummit rou">
+        <div class="no-bg-filter">
+            <div class="left">
+                <h2><!-- KOKAPENA -->10</h2>
+                <a href="https://www.youtube.com/@mauklyh7498" target="_blank"><img src="img/icons/mauklyh.png"></a>
+                <!-- LISTA PRINCIPAL
+                -->
+                <a href="prov-g.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Flag_of_Guip%C3%BAzcoa.svg/330px-Flag_of_Guip%C3%BAzcoa.svg.png" class="list-prov-flag"></a>
+            </div>
+            <div class="centre">
+                <h2><a href="https://www.youtube.com/watch?v=dZZJ2NaCwsw" target="_blank">MauklyH // Storming Summit (Nimbus)</a></h2>
+                <p><span data-lang-key="date">Fecha</span>: 2023/12/30</p>
+                <p><span data-lang-key="atts">Intentos</span>: ~6.000</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="list-item digitaldescent rou">
+        <div class="no-bg-filter">
+            <div class="left">
+                <h2><!-- KOKAPENA -->11</h2>
+                <a href="https://gdbrowser.com/u/itsmasigd" target="_blank"><img src="img/icons/itsmasigd.png"></a>
+                <!-- LISTA PRINCIPAL
+                -->
+                <a href="prov-b.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Bandera_de_Vizcaya.svg/330px-Bandera_de_Vizcaya.svg.png" class="list-prov-flag"></a>
+            </div>
+            <div class="centre">
+                <h2><span>ItsMasiGD // Digital Descent (VipriN)</span></h2>
+                <p><span data-lang-key="date">Fecha</span>: ????</p>
+                <p><span data-lang-key="atts">Intentos</span>: ????</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="list-item quantumprocessing rou">
+        <div class="no-bg-filter">
+            <div class="left">
+                <h2><!-- KOKAPENA -->12</h2>
+                <a href="https://gdbrowser.com/u/norlin" target="_blank"><img src="img/icons/norlin.png"></a>
+                <!-- LISTA PRINCIPAL
+                -->
+                <a href="prov-b.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Bandera_de_Vizcaya.svg/330px-Bandera_de_Vizcaya.svg.png" class="list-prov-flag"></a>
+            </div>
+            <div class="centre">
+                <h2><a href="https://www.youtube.com/watch?v=r1L1gG8ld-E&t=132s&pp=ygUJbm9ybGluIGdk" target="_blank">Norlin // Quantum Processing (Riot)</a></h2>
+                <p><span data-lang-key="date">Fecha</span>: 2022/09/18</p>
+                <p><span data-lang-key="atts">Intentos</span>: 11.913</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="list-item subsonic rou">
+        <div class="no-bg-filter">
+            <div class="left">
+                <h2><!-- KOKAPENA -->13</h2>
+                <a href="https://gdbrowser.com/u/startwyxzz" target="_blank"><img src="img/icons/StartWyxzz.png"></a>
+                <!-- LISTA PRINCIPAL
+                -->
+                <a href="prov-a.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Flag_of_%C3%81lava.svg/330px-Flag_of_%C3%81lava.svg.png" class="list-prov-flag"></a>
+            </div>
+            <div class="centre">
+                <h2><span>StartWyxzz // Subsonic (ViPrin)</span></h2>
+                <p><span data-lang-key="date">Fecha</span>: 2026/08/22</p>
+                <p><span data-lang-key="atts">Intentos</span>: ~14.000</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="list-item phobos rou">
+        <div class="no-bg-filter">
+            <div class="left">
+                <h2><!-- KOKAPENA -->14</h2>
+                <a href="https://gdbrowser.com/u/urkspider27" target="_blank"><img src="img/icons/urkspider27.png"></a>
+                <!-- LISTA PRINCIPAL
+                -->
+                <a href="prov-a.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Flag_of_%C3%81lava.svg/330px-Flag_of_%C3%81lava.svg.png" class="list-prov-flag"></a>
+            </div>
+            <div class="centre">
+                <h2><span>Urkspider127 // Phobos (KrMaL)</span></h2>
+                <p><span data-lang-key="date">Fecha</span>: 2026/02/06</p>
+                <p><span data-lang-key="atts">Intentos</span>: 24.961</p>
+            </div>
+        </div>
+    </div>
+
+<div class="list-item fusionz rou">
+        <div class="no-bg-filter">
+            <div class="left">
+                <h2><!-- KOKAPENA -->15</h2>
+                <a href="#" target="_self"><img src="img/icons/default.png"></a>
+                <!-- LISTA PRINCIPAL
+                -->
+                <a href="prov-a.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Flag_of_%C3%81lava.svg/330px-Flag_of_%C3%81lava.svg.png" class="list-prov-flag"></a>
+            </div>
+            <div class="centre">
+                <h2><span>sugo // Fusion Z (PlebKingdom)</span></h2>
+                <p><span data-lang-key="date">Fecha</span>: 2023/??/??</p>
+                <p><span data-lang-key="atts">Intentos</span>: ???</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="list-item quadraticfunction rou">
+        <div class="no-bg-filter">
+            <div class="left">
+                <h2><!-- KOKAPENA -->16</h2>
+                <a href="https://www.youtube.com/@zNestrian" target="_blank"><img src="img/icons/znestrian.png"></a>
+                <!-- LISTA PRINCIPAL
+                -->
+                <a href="prov-b.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Bandera_de_Vizcaya.svg/330px-Bandera_de_Vizcaya.svg.png" class="list-prov-flag"></a>
+            </div>
+            <div class="centre">
+                <h2><a href="https://www.youtube.com/watch?v=eAdfpq2NN80" target="_blank">Znestrian // Quadratic Function (TwisterDude161)</a></h2>
+                <p><span data-lang-key="date">Fecha</span>: 2025/02/01</p>
+                <p><span data-lang-key="atts">Intentos</span>: 6.094</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="list-item hypersonic rou">
+        <div class="no-bg-filter">
+            <div class="left">
+                <h2><!-- KOKAPENA -->17</h2>
+                <a href="https://www.youtube.com/@Emilioo_gz" target="_blank"><img src="img/icons/tigreton05.png"></a>
+                <!-- LISTA PRINCIPAL
+                -->
+                <a href="prov-b.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Bandera_de_Vizcaya.svg/330px-Bandera_de_Vizcaya.svg.png" class="list-prov-flag"></a>
+            </div>
+            <div class="centre">
+                <h2><a href="https://www.youtube.com/watch?v=Bu049sMCUak" target="_blank">Tigreton05 // Hypersonic (VipriN)</a></h2>
+                <p><span data-lang-key="date">Fecha</span>: 2021/05/22</p>
+                <p><span data-lang-key="atts">Intentos</span>: 11.139</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="list-item niwa rou">
+        <div class="no-bg-filter">
+            <div class="left">
+                <h2><!-- KOKAPENA -->18</h2>
+                <a href="https://www.youtube.com/@jakesola7856" target="_blank"><img src="img/icons/jakesola.png"></a>
+                <!-- LISTA PRINCIPAL
+                -->
+                <a href="prov-g.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Flag_of_Guip%C3%BAzcoa.svg/330px-Flag_of_Guip%C3%BAzcoa.svg.png" class="list-prov-flag"></a>
+            </div>
+            <div class="centre">
+                <h2><a href="https://www.youtube.com/watch?v=LFHU5tCF3-Q" target="_blank">Jakesola // Niwa (Teno)</a></h2>
+                <p><span data-lang-key="date">Fecha</span>: 2023/09/24</p>
+                <p><span data-lang-key="atts">Intentos</span>: ~4.000</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="list-item niwa rou">
+        <div class="no-bg-filter">
+            <div class="left">
+                <h2><!-- KOKAPENA -->18</h2>
+                <a href="https://gdbrowser.com/u/magicalain2" target="_blank"><img src="img/icons/magicalain2.png"></a>
+                <!-- LISTA PRINCIPAL
+                -->
+                <a href="prov-b.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Bandera_de_Vizcaya.svg/330px-Bandera_de_Vizcaya.svg.png" class="list-prov-flag"></a>
+            </div>
+            <div class="centre">
+                <h2><span>magicalain2 // Niwa (Teno)</span></h2>
+                <p><span data-lang-key="date">Fecha</span>: 2026/04/10</p>
+                <p><span data-lang-key="atts">Intentos</span>: 1.345</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="list-item trolllevel rou">
+        <div class="no-bg-filter">
+            <div class="left">
+                <h2><!-- KOKAPENA -->20</h2>
+                <a href="https://www.youtube.com/@unaidiez7899" target="_blank"><img src="img/icons/unaidiez789.png"></a>
+                <!-- LISTA PRINCIPAL
+                -->
+                <a href="prov-b.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Bandera_de_Vizcaya.svg/330px-Bandera_de_Vizcaya.svg.png" class="list-prov-flag"></a>
+            </div>
+            <div class="centre">
+                <h2><a href="https://www.youtube.com/watch?v=QYJnU152V24" target="_blank">unaidiez789 // Troll Level (Lexycat)</a></h2>
+                <p><span data-lang-key="date">Fecha</span>: 2025/08/03</p>
+                <p><span data-lang-key="atts">Intentos</span>: 20.106</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="list-item acu rou">
+        <div class="no-bg-filter">
+            <div class="left">
+                <h2><!-- KOKAPENA -->21</h2>
+                <a href="https://www.youtube.com/@SaraGM0192" target="_blank"><img src="img/icons/saragm.png"></a>
+                <!-- LISTA PRINCIPAL
+                -->
+                <a href="prov-a.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Flag_of_%C3%81lava.svg/330px-Flag_of_%C3%81lava.svg.png" class="list-prov-flag"></a>
+            </div>
+            <div class="centre">
+                <h2><a href="https://www.youtube.com/watch?v=NHCVtC_bgp0" target="_blank">SaraGM // Acu (Neigefeu)</a></h2>
+                <p><span data-lang-key="date">Fecha</span>: 2024/07/17</p>
+                <p><span data-lang-key="atts">Intentos</span>: 5.885</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="list-item acropolis rou">
+        <div class="no-bg-filter">
+            <div class="left">
+                <h2><!-- KOKAPENA -->22</h2>
+                <a href="https://www.youtube.com/@theburgerplus" target="_blank"><img src="img/icons/theburgerplus.png"></a>
+                <!-- LISTA PRINCIPAL
+                -->
+                <a href="prov-a.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Flag_of_%C3%81lava.svg/330px-Flag_of_%C3%81lava.svg.png" class="list-prov-flag"></a>
+            </div>
+            <div class="centre">
+                <h2><span>TheBurgerPlus // Acropolis (Zobros)</span></h2>
+                <p><span data-lang-key="date">Fecha</span>: 2025/06/12</p>
+                <p><span data-lang-key="atts">Intentos</span>: ~68.000</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="list-item sonicwaveuniverse rou">
+        <div class="no-bg-filter">
+            <div class="left">
+                <h2><!-- KOKAPENA -->23</h2>
+                <a href="https://globalstatsviewer.com/users/91367?tab=overview" target="_blank"><img src="img/icons/alain.png"></a>
+                <!-- LISTA PRINCIPAL
+                -->
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Flag_of_%C3%81lava.svg/330px-Flag_of_%C3%81lava.svg.png" class="list-prov-flag">
+            </div>
+            <div class="centre">
+                <h2><span>Alain // Sonic Wave Universe (HuyChoiGeoDat)</span></h2>
+                <p><span data-lang-key="date">Fecha</span>: 2025/09/23</p>
+                <p><span data-lang-key="atts">Intentos</span>: 1.686</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="list-item ditchedmachine rou">
+        <div class="no-bg-filter">
+            <div class="left">
+                <h2>24</h2>
+                <a href="https://www.youtube.com/@anergari2013" target="_blank"><img src="img/icons/anergari2013.png"></a>
+                <!-- LISTA PRINCIPAL
+                -->
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Flag_of_Guip%C3%BAzcoa.svg/330px-Flag_of_Guip%C3%BAzcoa.svg.png" class="list-prov-flag">
+            </div>
+            <div class="centre">
+                <h2>Anergari2013 // Ditched Machine (Jeyzor)</h2>
+                <p><span data-lang-key="date">Fecha</span>: 2026/03/??</p>
+                <p><span data-lang-key="atts">Intentos</span>: ~1.300</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="list-item ninecirclesxii rou">
+        <div class="no-bg-filter">
+            <div class="left">
+                <h2><!-- KOKAPENA -->25</h2>
+                <a href="https://gdbrowser.com/u/pepenorex"><img src="img/icons/pepenorex01.png"></a>
+                <!-- LISTA PRINCIPAL
+                -->
+                <a href="prov-a.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Flag_of_%C3%81lava.svg/330px-Flag_of_%C3%81lava.svg.png" class="list-prov-flag"></a>
+            </div>
+            <div class="centre">
+                <h2><span>PepeNoRex // Nine Circles XII (Rustam)</span></h2>
+                <p><span data-lang-key="date">Fecha</span>: 2026/08/13</p>
+                <p><span data-lang-key="atts">Intentos</span>: ~2.600</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <p>GDEuskadi &copy; 2023 - <span id="curry"></span> ~ <a href="#gora" class="gora" data-lang-key="gora">Volver arriba</a></p>
+    </footer>
+    <div class="buffer low"></div>
+    <!-- SCRIPT PARA BARRA RESPONSIVA -->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("navArriba");
+            if (x.className === "nav-arriba") {
+                x.className += " responsive";
+            } else {
+                x.className = "nav-arriba";
+            }
+        }
+    </script>
+    <!-- SCRIPT PARA ACTUALIZAR AÑO ACTUAL -->
+    <script>
+        document.getElementById("curry").innerHTML = new Date().getFullYear();
+    </script>
+</body>

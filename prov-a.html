@@ -1,0 +1,261 @@
+<!DOCTYPE html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="langScript.js" defer></script>
+    <title>GD Euskadi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles-nav.css">
+    <link rel="stylesheet" href="styles-lists.css">
+    <link rel="icon" href="img/gdeus-logo.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,1,0&icon_names=arrow_drop_down" />
+    <!--
+-->
+</head>
+<body>
+    <span id="gora"></span>
+    <!-- BARRA DE ARRIBA -->
+    <div class="nav-arriba" id="navArriba">
+        <a href="index.html" class="active">
+            <img src="img/gdeus-logo.png" alt="Logo" class="logo">
+            <span data-lang-key="nav-main-page">Página Principal</span></a>
+        <div class="dropdown">
+        <button class="dropbtn" data-lang-key="nav-prov-page">Provincias</button>
+            <div class="dropdown-content">
+                <a href="prov-a.html" data-lang-key="prov-a">Álava</a>
+                <a href="prov-b.html" data-lang-key="prov-b">Vizcaya</a>
+                <a href="prov-g.html" data-lang-key="prov-g">Gipuzkoa</a>
+                <a href="prov-n.html" data-lang-key="prov-n">Navarra</a>
+                <a href="prov-l.html" data-lang-key="prov-l">Lapurdi</a>
+                <a href="prov-nb.html" data-lang-key="prov-nb">Navarra Baja</a>
+                <a href="prov-z.html" data-lang-key="prov-z">Zubero</a>
+                <!--
+                -->
+            </div>
+        </div>
+        <a href="hardests.html" data-lang-key="nav-hardests-page">Lista de Hardests</a>
+        <a href="hardests-hist.html" data-lang-key="nav-hardests-hist-page">Historia de Hardests</a>
+        <a href="hardests-oty.html" data-lang-key="nav-hardests-oty-page">Hardests del Año</a>
+        <a href="creations.html" data-lang-key="nav-creations-page" class="unfinished">Creaciones</a>
+        <a href="contact.html" data-lang-key="nav-contact-page">Sobre nosotros</a>
+        <a href="changelog.html" data-lang-key="changelog-title">Lista de Cambios</a>
+        <div class="dropdown">
+        <button class="dropbtn" data-lang-key="lang-select">Idioma</button>
+            <div class="dropdown-content">
+                <a href="#" id="btn-es" class="lang-btn lang-es">Español</a>
+                <a href="#" id="btn-eu" class="lang-btn lang-eu">Euskera</a>
+            </div>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    <!-- INICIO DEL CONTENIDO PA -->
+
+    <div class="buffer"></div>
+    <!-- PORTADA -->
+    <div class="list-header rou">
+        <h1 data-lang-key="prov-a">Álava</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Flag_of_%C3%81lava.svg/330px-Flag_of_%C3%81lava.svg.png" class="list-prov-flag smal">
+        <p data-lang-key="prov-a-intro">Aquí se mostrarán los hardests de la provincia de Álava, ordenados según dificultad, uno por jugador.</p>
+        <p class="mini"><span data-lang-key="last-update">Última actualización</span>: 2026/11/07</p>
+    </div>
+
+    <!-- LISTA -->
+
+
+    <div class="list-item aerialgleam rou">
+        <div class="no-bg-filter">
+            <div class="left">
+                <h2><!-- KOKAPENA -->1</h2>
+                <a href="https://www.youtube.com/@BlueHeaven567" target="_blank"><img src="img/icons/blueheaven567.png"></a>
+                <!-- LISTA PRINCIPAL
+                <a href="prov-a"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Flag_of_%C3%81lava.svg/330px-Flag_of_%C3%81lava.svg.png" class="list-prov-flag"></a>
+                -->
+            </div>
+            <div class="centre">
+                <h2><a href="https://www.youtube.com/watch?v=Yg_A0pijKSs" target="_blank">Blue Heaven 567 // Aerial Gleam (EndLevel)</a></h2>
+                <p><span data-lang-key="date">Fecha</span>: 2026/10/20</p>
+                <p><span data-lang-key="atts">Intentos</span>: 747.155</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="list-item ragnarok rou">
+        <div class="no-bg-filter">
+            <div class="left">
+                <h2><!-- KOKAPENA -->2</h2>
+                <a href="https://gdbrowser.com/u/ikegzito" target="_blank"><img src="img/icons/ikegzito.png"></a>
+                <!-- LISTA PRINCIPAL
+                <a href="prov-a"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Flag_of_%C3%81lava.svg/330px-Flag_of_%C3%81lava.svg.png" class="list-prov-flag"></a>
+                -->
+            </div>
+            <div class="centre">
+                <h2><span>IKEGZITO // Ragnarok (Knobbelboy)</span></h2>
+                <p><span data-lang-key="date">Fecha</span>: 2023/06/??</p>
+                <p><span data-lang-key="atts">Intentos</span>: ~14.000</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="list-item subsonic rou">
+        <div class="no-bg-filter">
+            <div class="left">
+                <h2><!-- KOKAPENA -->3</h2>
+                <a href="https://gdbrowser.com/u/startwyxzz" target="_blank"><img src="img/icons/StartWyxzz.png"></a>
+                <!-- LISTA PRINCIPAL
+                <a href="prov-a.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Flag_of_%C3%81lava.svg/330px-Flag_of_%C3%81lava.svg.png" class="list-prov-flag"></a>
+                -->
+            </div>
+            <div class="centre">
+                <h2><span>StartWyxzz // Subsonic (ViPrin)</span></h2>
+                <p><span data-lang-key="date">Fecha</span>: 2026/08/22</p>
+                <p><span data-lang-key="atts">Intentos</span>: ~14.000</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="list-item phobos rou">
+        <div class="no-bg-filter">
+            <div class="left">
+                <h2><!-- KOKAPENA -->4</span></h2>
+                <a href="https://gdbrowser.com/u/urkspider27" target="_blank"><img src="img/icons/urkspider27.png"></a>
+                <!-- LISTA PRINCIPAL
+                <a href="prov-a.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Flag_of_%C3%81lava.svg/330px-Flag_of_%C3%81lava.svg.png" class="list-prov-flag"></a>
+                -->
+            </div>
+            <div class="centre">
+                <h2><span>Urkspider127 // Phobos (KrMaL)</span></h2>
+                <p><span data-lang-key="date">Fecha</span>: 2026/02/06</p>
+                <p><span data-lang-key="atts">Intentos</span>: 24.961</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="list-item fusionz rou">
+        <div class="no-bg-filter">
+            <div class="left">
+                <h2><!-- KOKAPENA -->5</span></h2>
+                <a href="#" target="_self"><img src="img/icons/default.png"></a>
+                <!-- LISTA PRINCIPAL
+                <a href="prov-a.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Flag_of_%C3%81lava.svg/330px-Flag_of_%C3%81lava.svg.png" class="list-prov-flag"></a>
+                -->
+            </div>
+            <div class="centre">
+                <h2><span>sugo // Fusion Z (PlebKingdom)</span></h2>
+                <p><span data-lang-key="date">Fecha</span>: 2023/??/??</p>
+                <p><span data-lang-key="atts">Intentos</span>: ???</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="list-item acu rou">
+        <div class="no-bg-filter">
+            <div class="left">
+                <h2><!-- KOKAPENA -->6</span></h2>
+                <a href="https://www.youtube.com/@SaraGM0192" target="_blank"><img src="img/icons/saragm.png"></a>
+                <!-- LISTA PRINCIPAL
+                <a href="prov-a"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Flag_of_%C3%81lava.svg/330px-Flag_of_%C3%81lava.svg.png" class="list-prov-flag"></a>
+                -->
+            </div>
+            <div class="centre">
+                <h2><a href="https://www.youtube.com/watch?v=NHCVtC_bgp0" target="_blank">SaraGM // Acu (Neigefeu)</a></h2>
+                <p><span data-lang-key="date">Fecha</span>: 2024/07/17</p>
+                <p><span data-lang-key="atts">Intentos</span>: 5.885</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="list-item acropolis rou">
+        <div class="no-bg-filter">
+            <div class="left">
+                <h2><!-- KOKAPENA -->7</h2>
+                <a href="https://www.youtube.com/@theburgerplus" target="_blank"><img src="img/icons/theburgerplus.png"></a>
+                <!-- LISTA PRINCIPAL
+                <a href="prov-a"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Flag_of_%C3%81lava.svg/330px-Flag_of_%C3%81lava.svg.png" class="list-prov-flag"></a>
+                -->
+            </div>
+            <div class="centre">
+                <h2><span>TheBurgerPlus // Acropolis (Zobros)</span></h2>
+                <p><span data-lang-key="date">Fecha</span>: 2025/06/12</p>
+                <p><span data-lang-key="atts">Intentos</span>: ~68.000</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="list-item sonicwaveuniverse rou">
+        <div class="no-bg-filter">
+            <div class="left">
+                <h2><!-- KOKAPENA -->8</h2>
+                <a href="https://globalstatsviewer.com/users/91367?tab=overview" target="_blank"><img src="img/icons/alain.png"></a>
+                <!-- LISTA PRINCIPAL
+                <a href="prov-a"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Flag_of_%C3%81lava.svg/330px-Flag_of_%C3%81lava.svg.png" class="list-prov-flag"></a>
+                -->
+            </div>
+            <div class="centre">
+                <h2><span>Alain // Sonic Wave Universe (HuyChoiGeoDat)</span></h2>
+                <p><span data-lang-key="date">Fecha</span>: 2025/09/23</p>
+                <p><span data-lang-key="atts">Intentos</span>: 1.686</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="list-item ninecirclesxii rou">
+        <div class="no-bg-filter">
+            <div class="left">
+                <h2><!-- KOKAPENA -->9</h2>
+                <a href="https://gdbrowser.com/u/pepenorex"><img src="img/icons/pepenorex01.png"></a>
+                <!-- LISTA PRINCIPAL
+                <a href="prov-a.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Flag_of_%C3%81lava.svg/330px-Flag_of_%C3%81lava.svg.png" class="list-prov-flag"></a>
+                -->
+            </div>
+            <div class="centre">
+                <h2><span>PepeNoRex // Nine Circles XII (Rustam)</span></h2>
+                <p><span data-lang-key="date">Fecha</span>: 2026/08/13</p>
+                <p><span data-lang-key="atts">Intentos</span>: ~2.600</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- MENCIONES HONORIFICAS -->
+
+    <div class="list-header rou" style="margin-top: 1em">
+        <h3 data-lang-key="mhonorifica">Menciones honoríficas</h3>
+    </div>
+
+    <div class="list-item sonicwaver rou">
+        <div class="no-bg-filter">
+            <div class="left">
+                <h2><!-- KOKAPENA --></h2>
+                <a href="https://gdbrowser.com/u/pepenorex"><img src="img/icons/cuatrocientos.png"></a>
+                <!-- LISTA PRINCIPAL
+                <a href="prov-a.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Flag_of_%C3%81lava.svg/330px-Flag_of_%C3%81lava.svg.png" class="list-prov-flag"></a>
+                -->
+            </div>
+            <div class="centre">
+                <h2><span>Cuatrocientos // Sonic Wave Rebirth (Serponge & FunnyGame)</span></h2>
+                <p><span data-lang-key="date">Fecha</span>: 2021/06/04</p>
+                <p><span data-lang-key="atts">Intentos</span>: ???</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <p>GDEuskadi &copy; 2023 - <span id="curry"></span> ~ <a href="#gora" class="gora" data-lang-key="gora">Volver arriba</a></p>
+    </footer>
+    <div class="buffer low"></div>
+    <!-- SCRIPT PARA BARRA RESPONSIVA -->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("navArriba");
+            if (x.className === "nav-arriba") {
+                x.className += " responsive";
+            } else {
+                x.className = "nav-arriba";
+            }
+        }
+    </script>
+    <!-- SCRIPT PARA ACTUALIZAR AÑO ACTUAL -->
+    <script>
+        document.getElementById("curry").innerHTML = new Date().getFullYear();
+    </script>
+</body>

@@ -1,0 +1,185 @@
+<!DOCTYPE html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="langScript.js" defer></script>
+    <title>GD Euskadi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles-nav.css">
+    <link rel="stylesheet" href="styles-lists.css">
+    <link rel="icon" href="img/gdeus-logo.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,1,0&icon_names=arrow_drop_down" />
+    <!--
+-->
+</head>
+<body>
+    <span id="gora"></span>
+    <!-- BARRA DE ARRIBA -->
+    <div class="nav-arriba" id="navArriba">
+        <a href="index.html" class="active">
+            <img src="img/gdeus-logo.png" alt="Logo" class="logo">
+            <span data-lang-key="nav-main-page">Página Principal</span></a>
+        <div class="dropdown">
+        <button class="dropbtn" data-lang-key="nav-prov-page">Provincias</button>
+            <div class="dropdown-content">
+                <a href="prov-a.html" data-lang-key="prov-a">Álava</a>
+                <a href="prov-b.html" data-lang-key="prov-b">Vizcaya</a>
+                <a href="prov-g.html" data-lang-key="prov-g">Gipuzkoa</a>
+                <a href="prov-n.html" data-lang-key="prov-n">Navarra</a>
+                <a href="prov-l.html" data-lang-key="prov-l">Lapurdi</a>
+                <a href="prov-nb.html" data-lang-key="prov-nb">Navarra Baja</a>
+                <a href="prov-z.html" data-lang-key="prov-z">Zubero</a>
+                <!--
+                -->
+            </div>
+        </div>
+        <a href="hardests.html" data-lang-key="nav-hardests-page">Lista de Hardests</a>
+        <a href="hardests-hist.html" data-lang-key="nav-hardests-hist-page">Historia de Hardests</a>
+        <a href="hardests-oty.html" data-lang-key="nav-hardests-oty-page">Hardests del Año</a>
+        <a href="creations.html" data-lang-key="nav-creations-page" class="unfinished">Creaciones</a>
+        <a href="contact.html" data-lang-key="nav-contact-page">Sobre nosotros</a>
+        <a href="changelog.html" data-lang-key="changelog-title">Lista de Cambios</a>
+        <div class="dropdown">
+        <button class="dropbtn" data-lang-key="lang-select">Idioma</button>
+            <div class="dropdown-content">
+                <a href="#" id="btn-es" class="lang-btn lang-es">Español</a>
+                <a href="#" id="btn-eu" class="lang-btn lang-eu">Euskera</a>
+            </div>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    <!-- INICIO DEL CONTENIDO PA -->
+
+    <div class="buffer"></div>
+    <!-- PORTADA -->
+    <div class="list-header rou">
+        <h1 data-lang-key="prov-g">Gipuzkoa</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Flag_of_Guip%C3%BAzcoa.svg/330px-Flag_of_Guip%C3%BAzcoa.svg.png" class="list-prov-flag smal">
+        <p data-lang-key="prov-g-intro">Aquí se mostrarán los hardests de la provincia de Gipuzkoa, ordenados según dificultad, uno por jugador.</p>
+        <p class="mini"><span data-lang-key="last-update">Última actualización</span>: 2026/11/07</p>
+    </div>
+
+    <!-- LISTA -->
+    <div class="list-item theyangire rou">
+        <div class="no-bg-filter">
+            <div class="left">
+                <h2>1</h2>
+                <a href="https://www.youtube.com/@MrErik30" target="_blank"><img src="img/icons/mrerik30.png"></a>
+                <!-- LISTA PRINCIPAL
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Flag_of_Guip%C3%BAzcoa.svg/330px-Flag_of_Guip%C3%BAzcoa.svg.png" class="list-prov-flag">
+                -->
+            </div>
+            <div class="centre">
+                <h2><a href="https://www.youtube.com/watch?v=sgfVaGzGLmY" target="_blank">MrErik30 // The Yangire (Dorami)</a></h2>
+                <p><span data-lang-key="date">Fecha</span>: 2026/04/17</p>
+                <p><span data-lang-key="atts">Intentos</span>: 27.193</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="list-item renevant rou">
+        <div class="no-bg-filter">
+            <div class="left">
+                <h2>2</h2>
+                <a href="https://www.youtube.com/@erbeq64" target="_blank"><img src="img/icons/erbeq64.png"></a>
+                <!-- LISTA PRINCIPAL
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Flag_of_Guip%C3%BAzcoa.svg/330px-Flag_of_Guip%C3%BAzcoa.svg.png" class="list-prov-flag">
+                -->
+            </div>
+            <div class="centre">
+                <h2><a href="https://www.youtube.com/watch?v=Rng77wfBdxQ" target="_blank">ErbeQ64 // Renevant (Nikrodox)</a></h2>
+                <p><span data-lang-key="date">Fecha</span>: 2025/12/20</p>
+                <p><span data-lang-key="atts">Intentos</span>: 44.473</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="list-item stormingsummit rou">
+        <div class="no-bg-filter">
+            <div class="left">
+                <h2>3</h2>
+                <a href="https://www.youtube.com/@mauklyh7498" target="_blank"><img src="img/icons/mauklyh.png"></a>
+                <!-- LISTA PRINCIPAL
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Flag_of_Guip%C3%BAzcoa.svg/330px-Flag_of_Guip%C3%BAzcoa.svg.png" class="list-prov-flag">
+                -->
+            </div>
+            <div class="centre">
+                <h2><a href="https://www.youtube.com/watch?v=dZZJ2NaCwsw" target="_blank">MauklyH // Storming Summit (Nimbus)</a></h2>
+                <p><span data-lang-key="date">Fecha</span>: 2023/12/30</p>
+                <p><span data-lang-key="atts">Intentos</span>: ~6.000</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="list-item niwa rou">
+        <div class="no-bg-filter">
+            <div class="left">
+                <h2>4</h2>
+                <a href="https://www.youtube.com/@jakesola7856" target="_blank"><img src="img/icons/jakesola.png"></a>
+                <!-- LISTA PRINCIPAL
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Flag_of_Guip%C3%BAzcoa.svg/330px-Flag_of_Guip%C3%BAzcoa.svg.png" class="list-prov-flag">
+                -->
+            </div>
+            <div class="centre">
+                <h2><a href="https://www.youtube.com/watch?v=LFHU5tCF3-Q&t=3s" target="_blank">Jakesola // Niwa (Teno)</a></h2>
+                <p><span data-lang-key="date">Fecha</span>: 2023/09/24</p>
+                <p><span data-lang-key="atts">Intentos</span>: ~4.000</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="list-item throughthedecay rou">
+        <div class="no-bg-filter">
+            <div class="left">
+                <h2>4</h2>
+                <a href="https://www.youtube.com/@jakesola7856" target="_blank"><img src="img/icons/haritz.png"></a>
+                <!-- LISTA PRINCIPAL
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Flag_of_Guip%C3%BAzcoa.svg/330px-Flag_of_Guip%C3%BAzcoa.svg.png" class="list-prov-flag">
+                -->
+            </div>
+            <div class="centre">
+                <h2><a href="#" target="_blank">migatitomalo1 // Through The Decay (spark)</a></h2>
+                <p><span data-lang-key="date">Fecha</span>: 2026/10/07</p>
+                <p><span data-lang-key="atts">Intentos</span>: ~6.000</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="list-item ditchedmachine rou">
+        <div class="no-bg-filter">
+            <div class="left">
+                <h2>4</h2>
+                <a href="https://www.youtube.com/@anergari2013" target="_blank"><img src="img/icons/anergari2013.png"></a>
+                <!-- LISTA PRINCIPAL
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Flag_of_Guip%C3%BAzcoa.svg/330px-Flag_of_Guip%C3%BAzcoa.svg.png" class="list-prov-flag">
+                -->
+            </div>
+            <div class="centre">
+                <h2>Anergari2013 // Ditched Machine (Jeyzor)</h2>
+                <p><span data-lang-key="date">Fecha</span>: 2026/03/??</p>
+                <p><span data-lang-key="atts">Intentos</span>: ~1.300</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <p>GDEuskadi &copy; 2023 - <span id="curry"></span> ~ <a href="#gora" class="gora" data-lang-key="gora">Volver arriba</a></p>
+    </footer>
+    <div class="buffer low"></div>
+    <!-- SCRIPT PARA BARRA RESPONSIVA -->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("navArriba");
+            if (x.className === "nav-arriba") {
+                x.className += " responsive";
+            } else {
+                x.className = "nav-arriba";
+            }
+        }
+    </script>
+    <!-- SCRIPT PARA ACTUALIZAR AÑO ACTUAL -->
+    <script>
+        document.getElementById("curry").innerHTML = new Date().getFullYear();
+    </script>
+</body>

@@ -1,0 +1,157 @@
+/* Add a black background color to the top navigation */
+.nav-arriba {
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  padding: 0;
+}
+
+.nav-arriba a span {
+  display: none;
+}
+
+.nav-arriba a:has(.logo) {
+  border-radius: 5px;
+  padding: 7px;
+}
+
+/* Style the links inside the navigation bar */
+.nav-arriba a {
+  float: left;
+  display: block;
+  color: inherit;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+  background-color: var(--dc2);
+  color: var(--df1);
+}
+
+/* Hide the link that should open and close the nav-arriba on small screens */
+.nav-arriba .icon {
+  display: none;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+/* Dropdown container - needed to position the dropdown content */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Style the dropdown button to fit inside the nav-arriba */
+.dropdown .dropbtn {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: var(--df1);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--dc3);
+  color: var(--df1);
+  min-width: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 0 0px 5px 5px;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: var(--df2);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  border: none;
+  font-size: 1rem;
+}
+
+/* Add a dark background on nav-arriba links and the dropdown button on hover */
+@media screen and (min-width: 1279px) {
+.nav-arriba a:hover, .dropdown:hover .dropbtn {
+  background-color: var(--lc1);
+  color: var(--lf1);
+  border-radius: 5px;
+}
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  z-index: 1000;
+      border-left: 5px solid var(--lc1);
+}
+
+.dropdown:hover .dropbtn {
+  background-color: var(--lc1);
+  color: var(--lf1);
+  border-radius: 5px;
+  border-radius: 5px 5px 5px 0;
+}
+
+/* Add a grey background to dropdown links on hover */
+.dropdown-content a:hover, .dropdown-content .active {
+  background-color: var(--lc1);
+  color: var(--lf1);
+  border-radius: 0;
+}
+
+.dropdown-content a:hover:last-of-type, .dropdown-content .active:last-of-type {
+    border-radius: 0 0px 5px 0px;
+}
+
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+
+.nav-arriba {
+  display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+/* COSAS DE CSS CUANDO ESTÁ EN FORMATO MÓVIL */
+@media screen and (max-width: 1279px) {
+  .nav-arriba a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .nav-arriba a.icon {
+    float: right;
+    display: block;
+    padding: 14px 16px;
+  }
+
+  .nav-arriba.responsive {position: relative;
+  display: flex;
+  position: relative;
+  flex-direction: column;}
+  .nav-arriba.responsive a.icon {
+    position: relative;
+    top: 0;
+    text-align: center;
+  }
+  .nav-arriba.responsive a {
+    float: none;
+    display: block;
+    width: 100%;
+  }
+  .nav-arriba.responsive .dropdown{float: none; width: 100%;}
+  .nav-arriba.responsive .dropdown-content {position: relative;}
+  .nav-arriba.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+  }
+}

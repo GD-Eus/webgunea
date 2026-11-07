@@ -1,0 +1,134 @@
+.home-thumbnail {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 1em;
+}
+
+.home-thumbnail::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url("https://levelthumbs.prevter.me/thumbnail/89187968/high");
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    border-radius: 17px;
+    filter: brightness(0.5);
+    -webkit-filter: brightness(0.5);
+    z-index: 0;
+}
+
+
+.no-bg-filter {
+    position: relative;
+    color: var(--df1);
+    text-align: center;
+    padding: 2em;
+    margin-bottom: 1em;
+    filter: none;
+    z-index: 2;
+}
+
+.no-bg-filter p {
+    color: var(--df2);
+}
+
+.card {
+    background-color: var(--lc2);
+    color: var(--lf1);
+    border-radius: 17px;
+    padding: 1em 2em;
+    display: flex;
+    align-items: center;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 17%;
+}
+
+.card-right {
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1em;
+}
+
+.card-right p {
+    text-align: left !important;
+    color: var(--lf2);
+} 
+
+.home-discord {
+    background-color: var(--dc2);
+    color: var(--df1);
+    border-radius: 17px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 0 20px 5px rgba(255,255,255,0.727);
+    margin: 0.5em 1em;
+}
+
+.home-discord a {
+    padding: 1em;
+}
+
+.home-main {
+    display: flex;
+    align-items: center;
+}
+
+.home-main .left, .home-main .right {
+    width: 50%;
+}
+
+.home-news {
+    text-align: center;
+}
+
+.home-main {
+    display: flex;
+}
+
+.home-news {
+    background-color: var(--lc1);
+    color: var(--lf1);
+    padding: 0.5em;
+    border-radius: 17px;
+}
+
+.home-news p {
+    color: var(--lf2);
+}
+
+.map p {
+    color: var(--df2);
+}
+
+img.map {
+    width: 100%;
+    align-items: center;
+}
+
+.home-main .left p {
+    text-align: justify;
+}
+
+.home-main .right p {
+    display: flex;
+    justify-content: center;
+    color: var(--df2);
+}
+
+@media screen and (max-width: 1100px) {
+    .home-main {
+        display: flex;
+        flex-direction: column;
+    }
+    .home-main .left, .home-main .right {
+        width: 100%;
+    }
+    /*
+    */
+}

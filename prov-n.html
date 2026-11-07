@@ -1,0 +1,120 @@
+<!DOCTYPE html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="langScript.js" defer></script>
+    <title>GD Euskadi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles-nav.css">
+    <link rel="stylesheet" href="styles-lists.css">
+    <link rel="icon" href="img/gdeus-logo.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,1,0&icon_names=arrow_drop_down" />
+    <!--
+-->
+</head>
+<body>
+    <span id="gora"></span>
+    <!-- BARRA DE ARRIBA -->
+    <div class="nav-arriba" id="navArriba">
+        <a href="index.html" class="active">
+            <img src="img/gdeus-logo.png" alt="Logo" class="logo">
+            <span data-lang-key="nav-main-page">Página Principal</span></a>
+        <div class="dropdown">
+        <button class="dropbtn" data-lang-key="nav-prov-page">Provincias</button>
+            <div class="dropdown-content">
+                <a href="prov-a.html" data-lang-key="prov-a">Álava</a>
+                <a href="prov-b.html" data-lang-key="prov-b">Vizcaya</a>
+                <a href="prov-g.html" data-lang-key="prov-g">Gipuzkoa</a>
+                <a href="prov-n.html" data-lang-key="prov-n">Navarra</a>
+                <a href="prov-l.html" data-lang-key="prov-l">Lapurdi</a>
+                <a href="prov-nb.html" data-lang-key="prov-nb">Navarra Baja</a>
+                <a href="prov-z.html" data-lang-key="prov-z">Zubero</a>
+                <!--
+                -->
+            </div>
+        </div>
+        <a href="hardests.html" data-lang-key="nav-hardests-page">Lista de Hardests</a>
+        <a href="hardests-hist.html" data-lang-key="nav-hardests-hist-page">Historia de Hardests</a>
+        <a href="hardests-oty.html" data-lang-key="nav-hardests-oty-page">Hardests del Año</a>
+        <a href="creations.html" data-lang-key="nav-creations-page" class="unfinished">Creaciones</a>
+        <a href="contact.html" data-lang-key="nav-contact-page">Sobre nosotros</a>
+        <a href="changelog.html" data-lang-key="changelog-title">Lista de Cambios</a>
+        <div class="dropdown">
+        <button class="dropbtn" data-lang-key="lang-select">Idioma</button>
+            <div class="dropdown-content">
+                <a href="#" id="btn-es" class="lang-btn lang-es">Español</a>
+                <a href="#" id="btn-eu" class="lang-btn lang-eu">Euskera</a>
+            </div>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    <!-- INICIO DEL CONTENIDO PA -->
+
+    <div class="buffer"></div>
+    <!-- PORTADA -->
+    <div class="list-header rou">
+        <h1 data-lang-key="prov-n">Navarra</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Bandera_de_Navarra.svg/330px-Bandera_de_Navarra.svg.png" class="list-prov-flag smal">
+        <p data-lang-key="prov-n-intro">Aquí se mostrarán los hardests de la Comunidad Foral de Navarra, ordenados según dificultad, uno por jugador.</p>
+        <p class="mini"><span data-lang-key="last-update">Última actualización</span>: 2026/11/07</p>
+    </div>
+
+    <!-- LISTA -->
+    <div class="list-item firework rou">
+        <div class="no-bg-filter">
+            <div class="left">
+                <h2><!-- KOKAPENA -->1</h2>
+                <a href="https://www.youtube.com/@TheSantyyy" target="_blank"><img src="img/icons/thesantyyy.png"></a>
+                <!-- LISTA PRINCIPAL
+                <a href="prov-n.html">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Bandera_de_Navarra.svg/330px-Bandera_de_Navarra.svg.png" class="list-prov-flag">
+                </a>
+                -->
+            </div>
+            <div class="centre">
+                <h2><a href="https://www.youtube.com/watch?v=fEWbBPAK5Uk" target="_blank">TheSantyyy // Firework (TrickGMD)</a></h2>
+                <p><span data-lang-key="date">Fecha</span>: 2026/07/09</p>
+                <p><span data-lang-key="atts">Intentos</span>: 64.089</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="list-item shardscapes rou">
+        <div class="no-bg-filter">
+            <div class="left">
+                <h2><!-- KOKAPENA -->2</h2>
+                <a href="https://www.youtube.com/@TheYTGames217/videos" target="_blank"><img src="img/icons/millan.png"></a>
+                <!-- LISTA PRINCIPAL
+                <a href="prov-n.html">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Bandera_de_Navarra.svg/330px-Bandera_de_Navarra.svg.png" class="list-prov-flag">
+                </a>
+                -->
+            </div>
+            <div class="centre">
+                <h2><a href="https://www.youtube.com/watch?v=mkqs8F37bIU" target="_blank">Millán // Shardscapes (ItzKiba)</a></h2>
+                <p><span data-lang-key="date">Fecha</span>: 2023/10/14</p>
+                <p><span data-lang-key="atts">Intentos</span>: 16.725</p>
+            </div>
+        </div>
+    </div>
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <p>GDEuskadi &copy; 2023 - <span id="curry"></span> ~ <a href="#gora" class="gora" data-lang-key="gora">Volver arriba</a></p>
+    </footer>
+    <div class="buffer low"></div>
+    <!-- SCRIPT PARA BARRA RESPONSIVA -->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("navArriba");
+            if (x.className === "nav-arriba") {
+                x.className += " responsive";
+            } else {
+                x.className = "nav-arriba";
+            }
+        }
+    </script>
+    <!-- SCRIPT PARA ACTUALIZAR AÑO ACTUAL -->
+    <script>
+        document.getElementById("curry").innerHTML = new Date().getFullYear();
+    </script>
+</body>

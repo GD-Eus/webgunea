@@ -1,0 +1,158 @@
+<!DOCTYPE html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="langScript.js" defer></script>
+    <title>GD Euskadi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles-nav.css">
+    <link rel="stylesheet" href="styles-lists.css">
+    <link rel="icon" href="img/gdeus-logo.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,1,0&icon_names=arrow_drop_down" />
+    <!--
+-->
+</head>
+<body>
+    <span id="gora"></span>
+    <!-- BARRA DE ARRIBA -->
+    <div class="nav-arriba" id="navArriba">
+        <a href="index.html" class="active">
+            <img src="img/gdeus-logo.png" alt="Logo" class="logo">
+            <span data-lang-key="nav-main-page">Página Principal</span></a>
+        <div class="dropdown">
+        <button class="dropbtn" data-lang-key="nav-prov-page">Provincias</button>
+            <div class="dropdown-content">
+                <a href="prov-a.html" data-lang-key="prov-a">Álava</a>
+                <a href="prov-b.html" data-lang-key="prov-b">Vizcaya</a>
+                <a href="prov-g.html" data-lang-key="prov-g">Gipuzkoa</a>
+                <a href="prov-n.html" data-lang-key="prov-n">Navarra</a>
+                <a href="prov-l.html" data-lang-key="prov-l">Lapurdi</a>
+                <a href="prov-nb.html" data-lang-key="prov-nb">Navarra Baja</a>
+                <a href="prov-z.html" data-lang-key="prov-z">Zubero</a>
+                <!--
+                -->
+            </div>
+        </div>
+        <a href="hardests.html" data-lang-key="nav-hardests-page">Lista de Hardests</a>
+        <a href="hardests-hist.html" data-lang-key="nav-hardests-hist-page">Historia de Hardests</a>
+        <a href="hardests-oty.html" data-lang-key="nav-hardests-oty-page">Hardests del Año</a>
+        <a href="creations.html" data-lang-key="nav-creations-page" class="unfinished">Creaciones</a>
+        <a href="contact.html" data-lang-key="nav-contact-page">Sobre nosotros</a>
+        <a href="changelog.html" data-lang-key="changelog-title">Lista de Cambios</a>
+        <div class="dropdown">
+        <button class="dropbtn" data-lang-key="lang-select">Idioma</button>
+            <div class="dropdown-content">
+                <a href="#" id="btn-es" class="lang-btn lang-es">Español</a>
+                <a href="#" id="btn-eu" class="lang-btn lang-eu">Euskera</a>
+            </div>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    <!-- INICIO DEL CONTENIDO PA -->
+
+    <div class="buffer"></div>
+    <!-- PORTADA -->
+    <div class="list-header rou">
+        <h1 data-lang-key="changelog-title">Lista de Cambios</h1>
+        <p data-lang-key="changelog-desc">Los cambios listados aquí están ordenados del más reciente al más antiguo.</p>
+    </div>
+
+    <!-- CHANGELOG -->
+    <div class="list-item rou">
+        <div class="no-bg-filter">
+            <div class="left">
+                <h3>2026</h3>
+            </div>
+            <div class="centre">
+                <ul class="changelog-list">
+                    <li>2026/??/?? - Nueva versión hecha en HTML y json, hecho artesanalmente (y robando algo de código, jeje). Las secciones de Creaciones y Progresos serán rehechas más adelante. La web original hecha en Google Sites quedará como archivo.</li>
+                    <li>2026/08/13 - Añadir a PepeNoRex en Hardests y en Álava. Actualizar Hardests, Álava (UrkSpider27: Triple Six -> Phobos).</li>
+                    <li>2026/05/18 - Añadir a magicalain2 en Hardests y en Bizkaia.</li>
+                    <li>2026/04/17 - Actualizar Hardests, Provincias, Guipuzkoa (MrErik30: Renevant -> The Yangire). Revertir navegación horizontal.</li>
+                    <li>2026/03/03 - ¡Finalmente añadido la versión en euskera! (No traduciré el changelog al euskera, se redigirá directamente aquí). Cambiado ligeramente el tono de verde. Añadido un resumen de los últimos cambios en Inicio. Actualizado varios hardests (no tuve tiempo para listarlos, ya tuve mucho jaleo traduciendo la web 😭). Navegación lateral (es una prueba).</li>
+                    <li>2026/01/20 - Añadir enlace al Server de Discord de GDEuskadi (WIP). Se me olvidó cambiar el año del footer :sob:</li>
+                    <li>2026/01/18 - Se me olvidó actualizar el mapa :sob:</li>
+                    <li>2026/01/18 - Urte berri on! Actualizar Provincias, Hardests, Bizkaia y Gipuzkoa (ErbeQ64: Devil Vortex -> Renevant) (Insurgentes54: Guideless Goobering -> LIMBO). Está por revisar cómo poner Hardests del Año.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="list-item rou">
+        <div class="no-bg-filter">
+            <div class="left">
+                <h3>2025</h3>
+            </div>
+            <div class="centre">
+                <ul class="changelog-list">
+                    <li>2025/12/23 - ¿Por qué tardé tanto en poner mi 74% en Aerial Gleam en Progresos? :sob:</li>
+                    <li>2025/09/05 - Por fin me dio tiempo para actualizar mi edad en Inicio :sob:</p>
+                    <li>2025/08/23 - Mucho texto: Actualizar Hardests, Guipuzkoa (ErbeQ64: Plasma Pulse III -> Devil Vortex). Añadir a Urkspider27 en Hardests y, temporalmente, en Álava (porfa, Urkspider27, confírmame por Discord si eres de Álava o de otra provincia🙏). Actualizar estado de Conchetumare Z en Creaciones (WIP -> Unrated). Añadidos fondos random a Contacto y Changelog. Retocar el alineamiento del texto en Changelog. Reorganizar un poco la navegación con respecto a Changelog. Quitar en Progresos el récord de ErbeQ64 (32% en Belloq) porque ya se lo pasó; zorionak, ErbeQ64!!! Como recordatorio: los perfiles se quedarán inconclusos hasta que se publique el server de Discord de GDEuskadi 😭</li>
+                    <li>2025/08/05 - Actualizar (después de 2 días por procrastinación) Hardests, Bizkaia (UnaiDiez789: My Time -> troll level).</li>
+                    <li>2025/07/06 - Por fin tuve tiempo de actualizar esto 😭 - Actualizar Hardests, Historia de Hardests, Hardest del Año, Provincias y Bizkaia (eletriple: Sonic Wave Infinity -> Edge of Destiny).</p>
+                    <li>2025/06/30 - Corregir enlace de ESCAPE ROOM de parte de MrErik30. oops</li>
+                    <li>2025/06/13 - Actualizar nombre de TheBurger30 a TheBurgerPlus; actualizar Hardests y Álava (TheBurgerPlus: CraZy -> Acropolis). Actualizar Provincias porque se me olvidó, oops. Actualizar Hardests (MrErik30: Bloodlust -> ESCAPE ROOM). Corregir una errata en Progresos (Blue Heaven 567: Aerial Gleam 68% [Solo me lo hice una vez {por ahora jaja}])</p>
+                    <li>2025/05/27 - Por fin me decidí a añadir a IKEGZITO con Ragnarok como hardest; por consecuencia, actualizado Hardests y Álava.</li>
+                    <li>2025/03/25 - Añadir Nature (SaraGM) a Creaciones.</li>
+                    <li>2025/03/20 - Actualizar Hardests, Bizkaia (UnaiDiez789: Circus Dash II -> My Time). Lo siento mucho por tardar tanto :sob:</p>
+                    <li>2025/03/11 - Actualizar Hardests, Historia de Hardests, Hardests del año, Bizkaia (eletriple: Tartarus -> Sonic Wave Infinity). Actualizar mapa. Actualizar perfil de eletriple.</li>
+                    <li>2025/02/11 - Añadir a zNestrian a Hardests y Bizkaia (se pasó Quadratic Function). Mover la lista de Cambios a su propia sección porque se está volviendo gigantesca xd</li>
+                    <li>2025/01/01 - URTE BERRI ON! Actualizar Hardests, GIpuzkoa (actualzando así el hardest de ErbeQ64: Allegiance -> Plasma Pulse III) y Progresos (Añadir el progreso de MauklyH del 53% en The Hallucination; añadir tercer 56% a Blue Heaven 567 en Aerial Gleam; añadir progresos de MrErik30 en Renevant y The Yangire). Adición de la página de Contacto (POR FINNNN, aunque un poco básica por ahora).</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+<div class="list-item rou">
+        <div class="no-bg-filter">
+            <div class="left">
+                <h3>2024</h3>
+            </div>
+            <div class="centre">
+                <ul class="changelog-list">
+                    <li>2024/11/05 - Añadir Hollow Knight (SaraGM) a Creaciones.</li>
+                    <li>2024/11/02 - Actualizar y reordenar Hardests y más lugares según AREDL (2024/11/02). Actualizar hardest de ErbeQ64 (Magma Bound -> Allegiance).</li>
+                    <li>2024/11/02 - Adición de MrErik30. Falta poner provincia.</li>
+                    <li>2024/11/02 - Corrección de mi edad y fecha de nacimiento en Inicio xD</li>
+                    <li>2024/10/24 - Añadir a UnaiDiez789.</li>
+                    <li>2024/09/21 -  Actualizar hardest de Insurgentes54 (Shardscapes -> Guideless Goobering; sí, me salté RUST porque no me había fijado 😭). Actualizar Progresos de ErbeQ64.</li>
+                    <li>2024/08/07 - Actualizar hardest de Insurgentes54 (Nhelv -> Shardscapes).</li>
+                    <li>2024/07/25 - Corrección de Provincia para ErbeQ64.</li>
+                    <li>2024/07/21 - Actualizar Creaciones.</li>
+                    <li>2024/07/21 - Añadir a SaraGM, actualizando a su vez Hardests y Álava. Se añadirán más adelante los niveles creados por SaraGM cuando se tengan capturas, o algún showcase, de dichos niveles. Actualizar hardests de Insurgente (Auditory Breaker -> Nhelv), actualizando así Hardests y Bizkaia. Actualizar Progresos de ErbeQ64 y Blue Heaven 567. </li>
+                    <li>2024/06/21 - Añadir a Insurgentes54, actualizando a su vez Hardests y Bizkaia. Cambiar en Bizkaia, Araba y Gipuzkoa, y en Hardests la descripción de cada sección.</p>
+                    <li>2024/06/19 - Actualizar hardest de Eletriple (Zodiac -> Tartarus). Actualizar Bizkaia, Provincias, Hardests, Historia de hardests, Hardest del año, Progresos. Actualizar mapa en Inicio. Actualizar perfil de Eletriple. Zorionak, Ele!</li>
+                    <li>2024/06/11 - Actualizar y corregir varios hardests en Provincias, Hardests, Progresos, Bizkaia y Gipuzkoa. Ajustar un poco Creaciones. Actualizar el Mapa en Inicio.</li>
+                    <li>2024/06/02 - Actualizar hardest de ProkaiGD (Sonic Wave -> Renevant).</li>
+                    <li>2024/05/28 - Añadir a ProkaiGD a la provincia de Bizkaia a petición personal.</p>
+                    <li>2024/05/27 - Actualizar Progresos (eletriple // Tartarus); correcciones y actualizaciones misceláneas; publicación de algunos perfiles de GDEuskadi (ES UNA BETA, POR AHORA SE HAN CREADO LOS SIGUIENTES PERFILES (INCOMPLETOS): Blue Heaven 567, eletriple, TheBurger30, Cuatrocientos; SE NECESITA MÁS INFO).</li>
+                    <li>2024/04/04 - Correciones y sugerencias de parte de ElTigreVerde412.</li>
+                    <li>2024/04/04 - Corrección de nombres, intentos y fechas.</li>
+                    <li>2024/04/04 - Corrección de nombres y texto, y creación del apartado de Progresos y Lista Provincias (oculto por ahora, pero se puede acceder clicando las banderas en el apartado de Provincias), además de añadir enlaces a casi todos los logros. Arreglado el clipping en los iconos.</li>
+                    <li>2024/03/28 - Versión inicial de publicación</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <p>GDEuskadi &copy; 2023 - <span id="curry"></span> ~ <a href="#gora" class="gora" data-lang-key="gora">Volver arriba</a></p>
+    </footer>
+    <div class="buffer low"></div>
+    <!-- SCRIPT PARA BARRA RESPONSIVA -->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("navArriba");
+            if (x.className === "nav-arriba") {
+                x.className += " responsive";
+            } else {
+                x.className = "nav-arriba";
+            }
+        }
+    </script>
+    <!-- SCRIPT PARA ACTUALIZAR AÑO ACTUAL -->
+    <script>
+        document.getElementById("curry").innerHTML = new Date().getFullYear();
+    </script>
+</body>

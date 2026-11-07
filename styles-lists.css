@@ -1,0 +1,217 @@
+.rou {
+    border-radius: 17px;
+}
+
+.list-header {
+    background-color: var(--dc1);
+    text-align: center;
+    padding: 0.5em;
+}
+
+.list-header p {
+    color: var(--df2);
+}
+
+.mini {
+    font-size: 0.727em;
+    color: var(--df2);
+}
+
+.list-item * a {
+    text-decoration: underline;
+}
+
+/* Niveles */
+.ragnarok {
+    background-image: url(https://levelthumbs.prevter.me/thumbnail/55624478/high);
+}
+
+.rage {
+    background-image: url(https://levelthumbs.prevter.me/thumbnail/53878361/high);
+}
+
+.triplesix {
+background-image: url(https://levelthumbs.prevter.me/thumbnail/56460850/high);
+}
+.acu {
+background-image: url(https://levelthumbs.prevter.me/thumbnail/61079355/high);
+}
+.acropolis {
+background-image: url(https://levelthumbs.prevter.me/thumbnail/5155022/high);
+}
+.eod {
+background-image: url(https://levelthumbs.prevter.me/thumbnail/89187968/high);
+}
+.limbo {
+background-image: url(https://levelthumbs.prevter.me/thumbnail/86084399/high);
+}
+.renevant {
+background-image: url(https://levelthumbs.prevter.me/thumbnail/58161496/high);
+}
+.digitaldescent {
+background-image: url(https://levelthumbs.prevter.me/thumbnail/37456092/high);
+}
+.quantumprocessing {
+background-image: url(https://levelthumbs.prevter.me/thumbnail/38235367/high);
+}
+.quadraticfunction {
+background-image: url(https://levelthumbs.prevter.me/thumbnail/105290756/high);
+}
+.doradura {
+background-image: url(https://levelthumbs.prevter.me/thumbnail/77114615/high);
+}
+.hypersonic {
+background-image: url(https://levelthumbs.prevter.me/thumbnail/30219145/high);
+}
+.niwa {
+background-image: url(https://levelthumbs.prevter.me/thumbnail/87425029/high);
+}
+.trolllevel {
+background-image: url(https://levelthumbs.prevter.me/thumbnail/76196489/high);
+}
+.theyangire {
+background-image: url(https://levelthumbs.prevter.me/thumbnail/110500920/high);
+}
+.stormingsummit {
+background-image: url(https://levelthumbs.prevter.me/thumbnail/76653933/high);
+}
+.supersonic {
+background-image: url(https://levelthumbs.prevter.me/thumbnail/4706930/high);
+}
+.deceptiondive {
+background-image: url(https://levelthumbs.prevter.me/thumbnail/34379100/high);
+}
+.bloodbath {
+background-image: url(https://levelthumbs.prevter.me/thumbnail/10565740/high);
+}
+.artificialascent {
+background-image: url(https://levelthumbs.prevter.me/thumbnail/27122654/high);
+}
+.freedom08 {
+background-image: url(https://levelthumbs.prevter.me/thumbnail/55274070/high);
+}
+.sonicwave {
+background-image: url(https://levelthumbs.prevter.me/thumbnail/26681070/high);
+}
+.sonicwaver {
+background-image: url(https://levelthumbs.prevter.me/thumbnail/68688849/high);
+}
+.arcticlights {
+background-image: url(https://levelthumbs.prevter.me/thumbnail/52919433/high);
+}
+.lucidnightmares {
+background-image: url(https://levelthumbs.prevter.me/thumbnail/52310333/high);
+}
+.zodiac {
+background-image: url(https://levelthumbs.prevter.me/thumbnail/52374843/high);
+}
+.tartarus {
+background-image: url(https://levelthumbs.prevter.me/thumbnail/59075347/high);
+}
+.sonicwavei {
+background-image: url(https://levelthumbs.prevter.me/thumbnail/69685815/high);
+}
+.climax {
+background-image: url(https://levelthumbs.prevter.me/thumbnail/95049815/high);
+}
+.aerialgleam {
+background-image: url(https://levelthumbs.prevter.me/thumbnail/79771070/high);
+}
+.phobos {
+background-image: url(https://levelthumbs.prevter.me/thumbnail/19759411/high);
+}
+.ninecirclesxii {
+background-image: url(https://levelthumbs.prevter.me/thumbnail/13703326/high);
+}
+.subsonic {
+background-image: url(https://levelthumbs.prevter.me/thumbnail/33387622/high);
+}
+.fusionz {
+background-image: url(https://levelthumbs.prevter.me/thumbnail/59933468/high);
+}
+.sonicwaveuniverse {
+background-image: url(https://levelthumbs.prevter.me/thumbnail/112133114/high);
+}
+.allegiance {
+background-image: url(https://levelthumbs.prevter.me/thumbnail/20761188/high);
+}
+.ditchedmachine {
+background-image: url(https://levelthumbs.prevter.me/thumbnail/4192768/high);
+}
+.throughthedecay {
+background-image: url(https://levelthumbs.prevter.me/thumbnail/114933189/high);
+}
+.firework {
+background-image: url(https://levelthumbs.prevter.me/thumbnail/75206202/high);
+}
+.shardscapes {
+background-image: url(https://levelthumbs.prevter.me/thumbnail/79997992/high);
+}
+.ta1lsd0ll {
+background-image: url(https://levelthumbs.prevter.me/thumbnail/115151904/high);
+}
+
+
+
+.list-item {
+    position: relative;
+    overflow: hidden;
+    margin-top: 1em;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+}
+
+.list-item::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.727);
+    z-index: 0;
+}
+
+.no-bg-filter {
+    position: relative;
+    color: var(--df1);
+    text-align: center;
+    padding: 2em;
+    margin-bottom: 1em;
+    filter: none;
+    z-index: 2;
+}
+
+.list-item * img {
+    height: 5em;
+}
+
+.list-prov-flag {
+    border-radius: 17px;
+    overflow: hidden;
+    margin-left: 1em;
+}
+
+.smal {
+    width: 7em;
+    margin-left: auto;
+}
+
+.blue-thumbnail {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 1em;
+}
+.blue-thumbnail::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url("https://levelthumbs.prevter.me/thumbnail/53878361/high");
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    border-radius: 17px;
+    filter: brightness(0.5);
+    -webkit-filter: brightness(0.5);
+    z-index: 0;
+}
