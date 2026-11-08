@@ -68,7 +68,7 @@
         "github-link": "Enlace a GitHub",
         "gora": "Volver arriba",
         "mhonorifica": "Menciones Honorables",
-        "vacant": "¡Clasificación vacía!",
+        "vacant": "¡Clasificación vacante!",
         "empate": "Empate"
     },
     "eu":{
@@ -143,7 +143,7 @@
         "github-link": "GitHub-rako Lasterbidea",
         "gora": "Gora itzuli",
         "mhonorifica": "Ohorezko Aipamenak",
-        "vacant": "Sailkapen hutsa!",
+        "vacant": "Sailkapena bete gabe!",
         "empate": "Berdinketa"
     }
 }
