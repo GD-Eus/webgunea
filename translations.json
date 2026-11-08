@@ -65,10 +65,10 @@
         "gd-username": "Mi Username de Geometry Dash",
         "yt-tag": "Mi tag de YouTube",
         "linktree-link": "Enlace a mi Linktree",
-        "github-link": "Enlace a GitHub",
+        "github-link": "Enlace al repositorio de GitHub",
         "gora": "Volver arriba",
         "mhonorifica": "Menciones Honorables",
-        "vacant": "¡Clasificación vacía!",
+        "vacant": "¡Clasificación vacante!",
         "empate": "Empate"
     },
     "eu":{
@@ -140,10 +140,10 @@
         "gd-username": "Nire Geometry Dash jokalari-izena",
         "yt-tag": "Nire YouTube-ko Tag",
         "linktree-link": "Nire Linktree Lasterbidea",
-        "github-link": "GitHub-rako Lasterbidea",
+        "github-link": "GitHub-en biltegirako lasterbidea",
         "gora": "Gora itzuli",
         "mhonorifica": "Ohorezko Aipamenak",
-        "vacant": "Sailkapen hutsa!",
+        "vacant": "Sailkapena bete gabe!",
         "empate": "Berdinketa"
     }
 }
