@@ -17,7 +17,7 @@ html { scroll-behavior: smooth; }
 
 body {
     background-color: var(--dc2);
-    background: linear-gradient(0deg,var(--dc3) 0%, var(--dc2) 100%);
+    background: linear-gradient(270deg,var(--dc3) 0%, var(--dc2) 100%);
     font-family: "Montserrat", sans-serif;
     color: var(--df1);
     user-select: none;
