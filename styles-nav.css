@@ -27,11 +27,12 @@
 }
 
 /* Add an active class to highlight the current page */
+/*
 .active {
   background-color: var(--dc2);
   color: var(--df1);
 }
-
+*/
 /* Hide the link that should open and close the nav-arriba on small screens */
 .nav-arriba .icon {
   display: none;
